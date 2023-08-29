@@ -1,0 +1,168 @@
+@import "toastr";
+
+h2 {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.asd {
+  margin-top: 150px;
+}
+
+.block {
+  display: block;
+}
+
+.compose {
+  background-color: lightskyblue;
+  border: 5px rgb(63, 168, 233) outset;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.alert-light {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 5px rgb(63, 168, 233) outset;
+  max-width: 530px;
+  background-color: lightskyblue;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn-light {
+  color: rgb(24, 113, 168);
+  font-size: 30px;
+}
+
+.header-light {
+  position: fixed;
+  height: 100vh;
+  width: 210px;
+  background-color: lightskyblue;
+  border: 1px solid lightgrey;
+  color: rgb(63, 168, 233);
+  border: 5px rgb(58, 180, 255);
+  border-style: outset;
+}
+
+.title-light {
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 40px;
+  text-shadow: 2px 1px #257aca;
+}
+
+.page {
+  float: right;
+  height: 100px;
+  width: 100px;
+  background-color: #ac1414;
+}
+
+.btns {
+  padding-top: 23px;
+  padding-bottom: 40px;
+}
+
+.btn {
+  display: block;
+  width: 180px;
+  margin: auto;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 19px;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.mode-light {
+  background-color: rgb(92, 184, 241);
+  box-shadow: 5px 5px 5px rgb(63, 168, 233);
+}
+
+.compose-light {
+  background-color: lightcoral;
+  box-shadow: 5px 5px 5px rgb(63, 168, 233);
+}
+
+.entries-light {
+  background-color: lightgreen;
+  box-shadow: 5px 5px 5px rgb(63, 168, 233);
+}
+
+.share-light {
+  background-color: lightpink;
+  box-shadow: 5px 5px 5px rgb(63, 168, 233);
+}
+
+/* DARK MODE */
+.alert-dark {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 5px rgb(144, 139, 133) outset;
+  width: 530px;
+  background-color: rgb(71, 72, 72);
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn-dark {
+  color: rgb(49, 51, 52);
+  font-size: 30px;
+}
+
+.title-dark {
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 40px;
+  text-shadow: 2px 1px #919197;
+}
+
+.header-dark {
+  height: 100vh;
+  width: 210px;
+  background-color: rgb(36, 45, 51);
+  border: 5px rgb(155, 155, 155);
+  border-style: outset;
+  color: rgb(114, 114, 114);
+}
+
+.mode-dark {
+  background-color: rgb(160, 165, 168);
+  box-shadow: 5px 5px 15px rgb(91, 101, 107);
+}
+
+.compose-dark {
+  /* background-color: coral; */
+  background-color: rgb(126, 125, 125);
+  box-shadow: 5px 4px 15px rgb(91, 101, 107);
+}
+
+.entries-dark {
+  /* background-color: rgb(151, 240, 18); */
+  background-color: rgb(95, 89, 89);
+  box-shadow: 5px 3px 15px rgb(76, 84, 88);
+}
+
+.share-dark {
+  /* background-color: pink; */
+  background-color: rgb(80, 80, 80);
+  box-shadow: 5px 3px 15px rgb(70, 73, 75);
+}
+
+/* rgb(91, 101, 107) */
