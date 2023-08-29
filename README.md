@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+https://danxgaming.github.io/digital-diary-react-app-unfinished-/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
